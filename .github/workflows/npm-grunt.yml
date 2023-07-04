@@ -24,5 +24,7 @@ jobs:
 
     - name: Build
       run: |
+        npm i react-accessible-accordion 
         npm install
         grunt
+        npm i react-select-async-paginate --forced
